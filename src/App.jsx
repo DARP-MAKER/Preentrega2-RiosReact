@@ -1,6 +1,7 @@
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemCount from './components/ItemCount/ItemCount';
 
 
 
@@ -12,6 +13,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 
         <NavBar/>
         <ItemListContainer greeting = {"Bienvenid@"}/>
+        <ItemCount/>
       
       </>
     );

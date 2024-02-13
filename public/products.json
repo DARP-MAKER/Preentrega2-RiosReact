@@ -1,0 +1,85 @@
+
+[
+    {
+      "id": 1,
+      "categoryid": "hombre",
+      "description": "enjoy maximized comfort with classic style in skechers go walk max™ - midshore. this pull-on features a mesh and synthetic upper with stretch laces, skechers air-cooled goga mat™ insole and lightweight 5gen® cushioning.",
+      "imageid": "./assets/img/SkeachersH.jpg",
+      "price": 110,
+      "stock": 40,
+      "tittle": "Skechers go walk max - midshore H"
+    },
+
+    {
+      "id": 2,
+      "categoryid": "hombre",
+      "description": "the suede hit the scene in 1968 and has been changing the game ever since. it’s been worn by icons of every generation, and it’s stayed classic through it all. instantly recognizable and constantly reinvented, suede’s legacy continues to grow and be legitimized by the authentic and expressive individuals that embrace the iconic shoe. be apart of the history of suede.",
+      "imageid": "./assets/img/PumaH.jpg",
+      "price": 120,
+      "stock": 16,
+      "tittle": "Puma suede classic xxi sneakers H"
+    },
+
+    { 
+      "id": 3,
+      "categoryid": "hombre",
+      "description": "the radiance lives on in the nike air force 1 '07 lv8. crossing hardwood comfort with off-court flair, these kicks put a fresh spin on a hoops classic. soft suede overlays pair with era-echoing '80s construction and reflective-design swoosh logos to bring you nothing-but-net style while hidden full-length air units add the legendary comfort you know and love",
+      "imageid": "./assets/img/NikeAir.jpg",
+      "price": 200,
+      "stock": 10,
+      "tittle": "Nike air force 1 '07 lv8 H"
+    },
+
+    {
+      "id": 4,
+      "categoryid": "mujer",
+      "description": "an iconic skechers favorite is reimagined with effortless comfort in skechers street™ hands free slip-ins®: uno - easy-air. designed with our exclusive heel pillow™, this fashion sneaker features a synthetic duraleather upper with stretch laces, a cushioned skechers air-cooled memory foam® insole, and a visible skech-air® airbag midsole",
+      "imageid": "./assets/img/SkeachersW.jpg",
+      "price": 105,
+      "stock": 35,
+      "tittle": "Skechers slip-ins: uno - easy air M"
+    },
+
+    {
+      "id": 5,
+      "categoryid": "mujer",
+      "description": "the rs-x returns for a new generation of consumers who live to express their individuality. the rs-x soft features a textile base with leather and suede overlays along with a cool 3d-printed formstrip and lycra hits.",
+      "imageid": "./assets/img/PumaW.jpg",
+      "price": 130,
+      "stock": 18,
+      "tittle": "Puma rs-x soft women's sneakers M"
+    },
+
+    {
+      "id": 6,
+      "categoryid": "mujer",
+      "description": "the nike air force 1 shadow puts a playful twist on a classic b-ball design.using a layered approach, doubling the branding and exaggerating the midsole, it highlights af-1 dna with a bold, new look.",
+      "imageid": "./assets/img/NikeAirW.jpg",
+      "price": 198,
+      "stock": 8,
+      "tittle": "Nike air force 1 shadow M"
+    },
+
+
+    {
+      "id": 7,
+      "categoryid": "hombre",
+      "description": "the adidas samba shoes throw it back to the glory days of sport. originally built for football, these iconic kicks have since become a casual favorite for sneakerheads and fashionistas alike. their full leather upper, accented with a nubuck toe cap, delivers a premium look that only gets better with wear. serrated 3-stripes add adidas style for a look that will always be an original. this timeless silhouette is ready to take on your everyday adventures.",
+      "imageid": "./assets/img/AdidasSambaH.jpg",
+      "price": 120,
+      "stock": 30,
+      "tittle": "Adidas samba shoes H"
+    },
+
+
+    {
+      "id": 8,
+      "categoryid": "mujer",
+      "description": "classic shoes return to the scene. from soccer fans in the '60s and '70s to skaters and indie rockers in the '90s, the adidas gazelle shoes have traversed the entirety of our cultural landscape. this pair has the same materials, proportions and textures as the original. seasonal colors add a trendy update for style in every step.",
+      "imageid": "./assets/img/AdidasGazelleW.jpg",
+      "price": 130,
+      "stock": 20,
+      "tittle": "Adidas gazelle shoes M"
+    }
+  ]
+  
