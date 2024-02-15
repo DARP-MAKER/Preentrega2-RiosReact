@@ -7,7 +7,8 @@
       "imageid": "./assets/img/SkeachersH.jpg",
       "price": 110,
       "stock": 40,
-      "tittle": "Skechers go walk max - midshore H"
+      "tittle": "Skechers go walk max - midshore H",
+      "new": "false"
     },
 
     {
@@ -17,7 +18,8 @@
       "imageid": "./assets/img/PumaH.jpg",
       "price": 120,
       "stock": 16,
-      "tittle": "Puma suede classic xxi sneakers H"
+      "tittle": "Puma suede classic xxi sneakers H",
+      "new": "false"
     },
 
     { 
@@ -27,7 +29,8 @@
       "imageid": "./assets/img/NikeAir.jpg",
       "price": 200,
       "stock": 10,
-      "tittle": "Nike air force 1 '07 lv8 H"
+      "tittle": "Nike air force 1 '07 lv8 H",
+      "new": "false"
     },
 
     {
@@ -37,7 +40,8 @@
       "imageid": "./assets/img/SkeachersW.jpg",
       "price": 105,
       "stock": 35,
-      "tittle": "Skechers slip-ins: uno - easy air M"
+      "tittle": "Skechers slip-ins: uno - easy air M",
+      "new": "false"
     },
 
     {
@@ -47,7 +51,8 @@
       "imageid": "./assets/img/PumaW.jpg",
       "price": 130,
       "stock": 18,
-      "tittle": "Puma rs-x soft women's sneakers M"
+      "tittle": "Puma rs-x soft women's sneakers M",
+      "new": "false"
     },
 
     {
@@ -57,7 +62,8 @@
       "imageid": "./assets/img/NikeAirW.jpg",
       "price": 198,
       "stock": 8,
-      "tittle": "Nike air force 1 shadow M"
+      "tittle": "Nike air force 1 shadow M",
+      "new": "false"
     },
 
 
@@ -68,7 +74,8 @@
       "imageid": "./assets/img/AdidasSambaH.jpg",
       "price": 120,
       "stock": 30,
-      "tittle": "Adidas samba shoes H"
+      "tittle": "Adidas samba shoes H",
+      "new": "true"
     },
 
 
@@ -79,7 +86,9 @@
       "imageid": "./assets/img/AdidasGazelleW.jpg",
       "price": 130,
       "stock": 20,
-      "tittle": "Adidas gazelle shoes M"
+      "tittle": "Adidas gazelle shoes M",
+      "new": "true"
+
     }
   ]
   

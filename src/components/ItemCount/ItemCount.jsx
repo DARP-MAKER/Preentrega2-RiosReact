@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function ItemCount() {
+function ItemCount({initial, stock}) {
   const [count, setCount] = useState(0);
 
   const agrega = () => {
@@ -9,7 +9,7 @@ function ItemCount() {
   };
 
   const resta = () => {
-    if (count > 1) {
+    if (count > initial) {
       setCount(count - 1);
     }
   };
@@ -17,9 +17,9 @@ function ItemCount() {
   return (
     <div>
       <p>Count: {count}</p>
-      <button onClick={() => {if (count < 10) {setCount(count + 1)}}}>+</button>
       <button onClick={resta}>-</button>
       <button onClick={agrega}>Agregar al carrito</button>
+      <button onClick={() => {if (count < stock) {setCount(count + 1)}}}>+</button>
     </div>
   );
 }
