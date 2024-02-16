@@ -7,7 +7,7 @@ const ItemList = ({ products }) => {
       {products.length === 0 ? (
         <h1>Loading</h1>
       ) : (
-        products.map((product, id) => (
+          products.map((product, id) => (
           <Item key={id} product={product} />
         ))
       )}
