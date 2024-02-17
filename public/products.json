@@ -30,7 +30,7 @@
       "price": 200,
       "stock": 10,
       "tittle": "Nike air force 1 '07 lv8 H",
-      "new": "false"
+      "new": "old"
     },
 
     {
@@ -41,7 +41,7 @@
       "price": 105,
       "stock": 35,
       "tittle": "Skechers slip-ins: uno - easy air M",
-      "new": "false"
+      "new": "old"
     },
 
     {
@@ -52,7 +52,7 @@
       "price": 130,
       "stock": 18,
       "tittle": "Puma rs-x soft women's sneakers M",
-      "new": "false"
+      "new": "old"
     },
 
     {
@@ -63,7 +63,7 @@
       "price": 198,
       "stock": 8,
       "tittle": "Nike air force 1 shadow M",
-      "new": "false"
+      "new": "old"
     },
 
 
@@ -75,7 +75,7 @@
       "price": 120,
       "stock": 30,
       "tittle": "Adidas samba shoes H",
-      "new": "true"
+      "new": "new"
     },
 
 
@@ -87,7 +87,7 @@
       "price": 130,
       "stock": 20,
       "tittle": "Adidas gazelle shoes M",
-      "new": "true"
+      "new": "new"
 
     }
   ]

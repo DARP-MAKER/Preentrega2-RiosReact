@@ -19,15 +19,15 @@ const NavBar = () => {
                 </li>
 
                 <li>
-                    <Link to={"/category/:id"}>Hombre</Link>
+                    <Link to={"/category/hombre"}>Hombre</Link>
                 </li>
 
                 <li>
-                    <Link to={"/category/:id"}>Mujer</Link>
+                    <Link to={"/category/mujer"}>Mujer</Link>
                 </li>
 
                 <li>
-                    <Link to={"detail"}>Nueva Colección</Link>
+                    <Link to={"/category/Nueva "}>Nueva Colección</Link>
                 </li>
 
             </ul>
