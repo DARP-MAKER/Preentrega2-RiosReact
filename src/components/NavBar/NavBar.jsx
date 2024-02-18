@@ -27,7 +27,7 @@ const NavBar = () => {
                 </li>
 
                 <li>
-                    <Link to={"/category/Nueva "}>Nueva Colección</Link>
+                    <Link to={"/category/new"}>Novedades</Link>
                 </li>
 
             </ul>

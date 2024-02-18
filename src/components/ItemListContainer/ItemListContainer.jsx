@@ -3,10 +3,8 @@ import ItemList from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom';
 
 const ItemListContainer = () => {
-
   const [products, setProducts] = useState([]);
-
-  const {id: categoryid} = useParams ()
+  const { id: categoryid } = useParams();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -14,18 +12,20 @@ const ItemListContainer = () => {
         const response = await fetch("/products.json");
         const data = await response.json();
 
-        if (categoryid){
-          const filteredProducts = data.filter((p) => p.categoryid === categoryid)
-          setProducts(filteredProducts)
+        let filteredProducts = [];
+
+        if (categoryid === 'new') {
+          
+          filteredProducts = data.filter(p => p.new === "new");
+        } else if (categoryid) {
+          
+          filteredProducts = data.filter(p => p.categoryid === categoryid);
+        } else {
+          
+          filteredProducts = data;
         }
 
-
-
-        
-        else {
-        setProducts(data)
-        }
-
+        setProducts(filteredProducts);
       } catch (error) {
         console.log("error en el fetch" + error);
       }
@@ -36,13 +36,12 @@ const ItemListContainer = () => {
 
   console.log(categoryid);
 
-return (
+  return (
     <div>
       <ItemList products={products} />
     </div>
   );
 };
 
+export default ItemListContainer;
 
-
-  export default ItemListContainer;
