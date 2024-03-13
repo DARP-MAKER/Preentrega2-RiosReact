@@ -32,6 +32,10 @@ const NavBar = () => {
 
             </ul>
 
+            <Link to= {"/Cart"}>
+            <img src="./public/carrito.png" alt="Logo carrito" />
+            </Link>
+
             <CarWidget/>
             
         </div>

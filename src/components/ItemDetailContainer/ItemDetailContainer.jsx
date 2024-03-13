@@ -14,7 +14,7 @@ const ItemDetailContainer = () => {
             const response = await fetch("/products.json");
             const data = await response.json();
             const foundProduct = data.find((products) => products.id === parseInt(id));
-            setProducts([foundProduct]); 
+            setProducts(foundProduct); 
           } catch (error) {
             console.log("error en el fetch" + error);
           }

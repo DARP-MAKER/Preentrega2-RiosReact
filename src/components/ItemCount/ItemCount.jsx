@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 
-function ItemCount({initial, stock}) {
+function ItemCount({initial, stock, onAdd}) {
   const [count, setCount] = useState(0);
 
   const agrega = () => {
-    console.log(count + " productos al carrito");
-    alert(count + " productos al carrito");
+
+    onAdd(count)
+    /*console.log(count + " productos al carrito");
+    alert(count + " productos al carrito");*/
   };
 
   const resta = () => {
+
     if (count > initial) {
       setCount(count - 1);
     }

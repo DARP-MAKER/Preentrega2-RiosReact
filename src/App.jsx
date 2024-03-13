@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ItemCount from './components/ItemCount/ItemCount';
 import Error from './components/Error/Error';
 import Item from './components/Item/Item';
+import Cart from './components/Cart/Cart';
+import CartProvider  from './context/cartContext';
 
   function App () {
 
@@ -14,6 +16,8 @@ import Item from './components/Item/Item';
 
 
     <BrowserRouter>
+
+      <CartProvider>
       
       <NavBar/>
 
@@ -21,7 +25,11 @@ import Item from './components/Item/Item';
 
         <Route path = "/" element = { <ItemListContainer/> } />     
         <Route path= "/category/:id" element= {<ItemListContainer/>} />
-        <Route path= "/item/:id" element = { <ItemDetailContainer/>}>
+        <Route path= "/item/:id" element = { <ItemDetailContainer/>} />
+        <Route path= "/Cart" element = { <Cart/>}
+        
+        >
+        
         
         </Route>
 
@@ -30,6 +38,8 @@ import Item from './components/Item/Item';
       </Routes>
 
       <Footer/>
+
+      </CartProvider>
 
     </BrowserRouter>
 
